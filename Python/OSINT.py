@@ -1,7 +1,5 @@
-import phonenumbers # Если данной библиотеки нет, то зайди в Pydroid, потом на три полоски в левом верхнем углу, найди Pip, зайди в Install и впиши phonenumbers. Отказывайся от плагина. Потом просто подожди пока библиотека скачается
+import phonenumbers # pip install phonenumbers
 import requests
-
-# Если ты не скачаешь библиотеки, то ничего не будет работать
 
 from phonenumbers import geocoder, carrier, timezone
 phone_number = "+79006068279" # Введи сюда номер телефона в формате E.164
